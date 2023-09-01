@@ -1,0 +1,2 @@
+<?php
+// Nothing in sidebarwwww

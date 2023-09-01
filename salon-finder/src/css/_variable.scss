@@ -1,0 +1,48 @@
+$breakpoint-mobile: 480px;
+$breakpoint-tablet: 768px;
+
+.garamond-font {
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
+}
+
+.poppins-regular {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.poppins-medium {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.poppins-semibold {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.poppins-bold {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.list-style-none {
+  list-style: none;
+  padding-inline-start: 20px;
+}
+
+.gray-gradient-bg {
+  // background: rgb(255,255,255);
+  background: linear-gradient(180deg, #FFFFFF 0%, #FAF7F7 50%);
+}
+
+$dvPinkColor: #EA4A7F;
+$dvLightPinkColor: #ec8bab;
+$bodyColour: #22201B;
+$topBarGrey: #C1BFB7;
+
+$btnGradient: linear-gradient(180deg, $dvPinkColor 10%, $dvLightPinkColor  70%);

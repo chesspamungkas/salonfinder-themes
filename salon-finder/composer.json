@@ -1,0 +1,22 @@
+{
+    "name": "salonfinder/salon-finder",
+    "description": "dv salon finder",
+    "type": "wordpress-theme",
+    "authors": [
+        {
+            "name": "Catur Pamungkas",
+            "email": "chesspamungkas@gmail.com"
+        }
+    ],
+    "require": {
+        "wp-bootstrap/wp-bootstrap-navwalker": "^4.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "DV\\": "src"
+        },
+        "classmap": [
+            "../../../vendor/wp-bootstrap/wp-bootstrap-navwalker/class-wp-bootstrap-navwalker.php"
+        ]
+    }
+}

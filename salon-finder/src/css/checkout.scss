@@ -1,0 +1,11 @@
+.wc_payment_methods {
+  .wc_payment_method {
+		.stripe-icon {
+			width: 25px;
+			margin-left: 5px;
+			&:first-child {
+				margin-left: 0px;
+			}
+		}
+	}
+}

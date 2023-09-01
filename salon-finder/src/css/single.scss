@@ -1,0 +1,29 @@
+.single-post {
+  #content-area {
+    .authorSection {
+      .authorName {
+        &:after {
+          content: " | ";
+          display: inline-block;
+          margin-right: 2px;
+        }
+      }
+      a {
+        color: theme-color('commonGrey');
+      }
+      color: theme-color('commonGrey');
+    }
+    .entry-content {      
+      a {
+        color: theme-color('corp-color');
+      }
+    }
+  }
+  .post_category {
+    font-size: 1rem;
+    margin: 0 0 10px;
+    padding: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}

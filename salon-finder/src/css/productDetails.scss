@@ -1,0 +1,1028 @@
+.mobile-view {
+    display: none;
+}
+
+.product-details {
+    width: 900px;
+    margin: 40px auto;
+
+    li::marker {
+        color: #ffcede;
+    }
+
+    ul {
+        list-style: none;
+        list-style-position: outside;
+        font-family: 'EB Garamond', serif !important;
+        font-weight: 500 !important;
+        font-size: 20px !important;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        margin-left: 15px;
+
+        li {
+            margin-bottom: 20px;
+
+            &::before {
+                content: '\2022 ';
+                font-size: 25px;
+                color: #ffcede;
+                margin-right: 20px;
+                margin-left: -30px;
+                line-height: 0;
+            }
+
+            ul {
+                list-style: none;
+                list-style-position: outside;
+                font-family: 'EB Garamond', serif !important;
+                font-weight: 500 !important;
+                font-size: 20px !important;
+                margin-top: 20px;
+                margin-left: -10px;
+
+                li {
+                    margin-bottom: 20px;
+
+                    &::before {
+                        content: '\26AC ';
+                        font-size: 15px;
+                        color: #ffcede;
+                        margin-right: 20px;
+                        margin-left: -30px;
+                        line-height: 0;
+                    }
+
+                    ul {
+                        list-style: none;
+                        list-style-position: outside;
+                        font-family: 'EB Garamond', serif !important;
+                        font-weight: 500 !important;
+                        font-size: 20px !important;
+                        margin-top: 20px;
+                        margin-left: -10px;
+
+                        li {
+                            margin-bottom: 20px;
+
+                            &::before {
+                                content: '■ ';
+                                font-size: 10px;
+                                color: #ffcede;
+                                margin-right: 20px;
+                                margin-left: -30px;
+                                line-height: 0;
+                            }
+                        }
+                    }
+
+                    ol {
+                        list-style: none;
+                        list-style-position: outside;
+                        font-family: 'EB Garamond', serif !important;
+                        font-weight: 500 !important;
+                        font-size: 20px !important;
+                        counter-reset: my-counter;
+                        margin-top: 20px;
+
+                        li {
+                            display: block;
+                            margin-bottom: 20px;
+                        }
+                    }
+                }
+            }
+
+            ol {
+                list-style: none;
+                list-style-position: outside;
+                font-family: 'EB Garamond', serif !important;
+                font-weight: 500 !important;
+                font-size: 20px !important;
+                counter-reset: my-counter;
+                margin-top: 20px;
+                margin-left: -12px;
+
+                li {
+                    display: block;
+                    margin-bottom: 20px;
+
+                    &::before {
+                        counter-increment: my-counter;
+                        content: counter( my-counter, lower-alpha ) '. ';
+                        color: #ffcede;
+                        margin-right: 10px;
+                        margin-left: -29px;
+                        line-height: 0;
+                        display: inline-block;
+                        width: 1em;
+                    }
+
+                    ul {
+                        list-style: none;
+                        list-style-position: outside;
+                        font-family: 'EB Garamond', serif !important;
+                        font-weight: 500 !important;
+                        font-size: 20px !important;
+                        margin-top: 20px;
+
+                        li {
+                            margin-bottom: 20px;
+
+                            &::before {
+                                content: '\2022 ';
+                                font-size: 25px;
+                                color: #ffcede;
+                                margin-right: 20px;
+                                margin-left: -30px;
+                                line-height: 0;
+                            }
+                        }
+                    }
+
+                    ol {
+                        list-style: none;
+                        list-style-position: outside;
+                        font-family: 'EB Garamond', serif !important;
+                        font-weight: 500 !important;
+                        font-size: 20px !important;
+                        counter-reset: my-counter;
+                        margin-top: 20px;
+
+                        li {
+                            display: block;
+                            margin-bottom: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    ol {
+        list-style: none;
+        list-style-position: outside;
+        font-family: 'EB Garamond', serif !important;
+        font-weight: 500 !important;
+        font-size: 20px !important;
+        counter-reset: my-counter;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        margin-left: 15px;
+
+        li {
+            display: block;
+            margin-bottom: 20px;
+
+            &::before {
+                counter-increment: my-counter;
+                content: counter( my-counter, decimal )'. ';
+                font-size: 30px;
+                color: #ffcede;
+                margin-top: -11px;
+                margin-right: 10px;
+                margin-left: -59px;
+                line-height: 0;
+                vertical-align: middle;
+                display: inline-block;
+                width: 1.6em;
+            }
+
+            ol {
+                list-style: none;
+                list-style-position: outside;
+                font-family: 'EB Garamond', serif !important;
+                font-weight: 500 !important;
+                font-size: 20px !important;
+                counter-reset: my-counter;
+                margin-top: 20px;
+                margin-left: 27px;
+                padding-inline-start: 0;
+
+                li {
+                    display: block;
+                    margin-bottom: 20px;
+
+                    &::before {
+                        counter-increment: my-counter;
+                        content: counter( my-counter, lower-alpha ) '. ';
+                        color: #ffcede;
+                        margin-right: 10px;
+                        margin-left: -29px;
+                        line-height: 0;
+                        display: inline-block;
+                        width: 1em;
+                    }
+
+                    ol {
+                        list-style: none;
+                        list-style-position: outside;
+                        font-family: 'EB Garamond', serif !important;
+                        font-weight: 500 !important;
+                        font-size: 20px !important;
+                        counter-reset: my-counter;
+                        margin-top: 20px;
+                        margin-left: -4px;
+
+                        li {
+                            display: block;
+                            margin-bottom: 20px;
+
+                            &::before {
+                                counter-increment: my-counter;
+                                content: counter( my-counter, lower-roman ) '. ';
+                                color: #ffcede;
+                                margin-right: 15px;
+                                margin-left: -35px;
+                                line-height: 0;
+                                display: inline-block;
+                                width: 1em;
+                            }
+                        }
+                    }
+
+                    ul {
+                        list-style: none;
+                        list-style-position: outside;
+                        font-family: 'EB Garamond', serif !important;
+                        font-weight: 500 !important;
+                        font-size: 20px !important;
+                        margin-top: 20px;
+
+                        li {
+                            margin-bottom: 20px;
+
+                            &::before {
+                                content: '\2022 ';
+                                font-size: 25px;
+                                color: #ffcede;
+                                margin-right: 20px;
+                                margin-left: -30px;
+                                line-height: 0;
+                            }
+                        }
+                    }
+                }
+            }
+
+            ul {
+                list-style: none;
+                list-style-position: outside;
+                font-family: 'EB Garamond', serif !important;
+                font-weight: 500 !important;
+                font-size: 20px !important;
+                margin-top: 20px;
+                margin-left: 30px;
+                padding-inline-start: 0;
+
+                li {
+                    margin-bottom: 20px;
+
+                    &::before {
+                        content: '\2022 ';
+                        font-size: 25px;
+                        color: #ffcede;
+                        margin-right: 20px;
+                        margin-left: -30px;
+                        line-height: 0;
+                    }
+
+                    ol {
+                        list-style: none;
+                        list-style-position: outside;
+                        font-family: 'EB Garamond', serif !important;
+                        font-weight: 500 !important;
+                        font-size: 20px !important;
+                        counter-reset: my-counter;
+                        margin-top: 20px;
+
+                        li {
+                            display: block;
+                            margin-bottom: 20px;
+                        }
+                    }
+
+                    ul {
+                        list-style: none;
+                        list-style-position: outside;
+                        font-family: 'EB Garamond', serif !important;
+                        font-weight: 500 !important;
+                        font-size: 20px !important;
+                        margin-top: 20px;
+                        margin-left: -10px;
+
+                        li {
+                            margin-bottom: 20px;
+
+                            &::before {
+                                content: '\26AC ';
+                                font-size: 15px;
+                                color: #ffcede;
+                                margin-right: 20px;
+                                margin-left: -30px;
+                                line-height: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .product-name {
+        font-family:'EB Garamond', serif;
+        font-weight: 500 !important;
+        font-size: 48px;
+    }
+
+    .product-merchant {
+        font-family:'Poppins', sans-serif;
+        font-weight: 600 !important;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+        margin-top: 20px;
+
+        .merchant-name {
+            color: #626262;
+        }
+
+        .outlets {
+            color: $dvPinkColor;
+        }
+    }
+
+    .product-pricing {
+        font-family:'Poppins', sans-serif;
+
+        .regular-price {
+            font-weight: 700 !important;
+            color: #000;
+            font-size: 24px;
+            margin-right: 5px;
+        }
+
+        .regular-price-strike {
+            font-weight: 500 !important;
+            color: $topBarGrey;
+            text-decoration: line-through;
+            margin-right: 5px;
+        }
+
+        .sale-price {
+            font-weight: 700 !important;
+            color: #000;
+            font-size: 24px;
+            margin-right: 5px;
+        }
+
+        .discounted {
+            background-color: $dvPinkColor;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 500 !important;
+            vertical-align: top;
+            line-height: 2.5;
+        }
+    }
+
+    .sidebar-panel {
+        .card {
+            border-radius: 1rem;
+            box-shadow: 1px 1px 15px #ccc;
+
+            .card-header {
+                &:first-child {
+                    border-radius: calc(1rem - 1px) calc(1rem - 1px) 0 0;
+                    background-color: #111;
+                    color: #fff;
+                    font-family:'Poppins', sans-serif;
+                    font-weight: 700 !important;
+                    font-size: 16px;
+                    padding: 1rem 1.25rem;
+                    letter-spacing: .05rem;
+
+                    .discounted {
+                        font-size: 12px;
+                        text-transform: uppercase;
+                        font-weight: 500 !important;
+                    }
+                }
+            }
+
+            .card-body {
+                .product-pricing {
+                    font-family:'Poppins', sans-serif;
+                    margin-bottom: 1.25rem;
+
+                    .regular-price {
+                        font-weight: 700 !important;
+                        color: #000;
+                        font-size: 24px;
+                        margin-right: 5px;
+                    }
+
+                    .regular-price-strike {
+                        font-weight: 500 !important;
+                        color: $topBarGrey;
+                        text-decoration: line-through;
+                        margin-right: 5px;
+                    }
+
+                    .sale-price {
+                        font-weight: 700 !important;
+                        color: #000;
+                        font-size: 24px;
+                        margin-right: 5px;
+                    }
+
+                    .discounted {
+                        background-color: $dvPinkColor;
+                        color: #fff;
+                        font-size: 14px;
+                        font-weight: 500 !important;
+                        vertical-align: top;
+                        line-height: 2.5;
+                    }
+                }
+
+                .buy-voucher-btn {
+                    form {
+                        margin-bottom: 20px;
+
+                        button {
+                            width: 100%;
+                            background: $btnGradient;
+                            text-transform: uppercase;
+                            font-family:'Poppins', sans-serif;
+                            font-weight: 700 !important;
+                            color: #fff;
+                            padding: 20px 35px;
+                            border-radius: 30px;
+                            font-size: 12px;
+                            letter-spacing: .1rem;
+                        }
+                    }
+
+                    .how-to-redeem-btn {
+                        font-family:'Poppins', sans-serif;
+                        font-weight: 500 !important;
+                        font-size: 12px;
+                        color: $dvPinkColor;
+                        text-decoration: underline;
+
+                        &:hover {
+                            color: $dvPinkColor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .product-content {
+        h4 {
+            font-family:'Poppins', sans-serif;
+            font-weight: 700 !important;
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+
+        p {
+            font-family:'EB Garamond', serif !important;
+            font-weight: 500 !important;
+            font-size: 20px !important;
+        }
+    }
+
+    .redeemable-outlets {
+        h4 {
+            font-family:'Poppins', sans-serif;
+            font-weight: 700 !important;
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+
+        p {
+            font-family:'EB Garamond', serif !important;
+            font-weight: 500 !important;
+            font-size: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+              
+            li {
+                position: relative;
+                padding-left: 30px;
+                line-height: 1.6;
+
+                &:not( :last-child ) {
+                    margin-bottom: 50px;
+                }
+
+                p {
+                    margin-bottom: unset !important;
+                    font-family:'Poppins', sans-serif !important;
+                    font-weight: 500 !important;
+                    font-size: 16px !important;
+                }
+
+                p.outlet-name {
+                    font-family:'Poppins', sans-serif !important;
+                    font-weight: 700 !important;
+                    font-size: 16px !important;
+                    text-transform: uppercase !important;
+                }
+
+                &::before {
+                    position: absolute;
+                    top: 10px;
+                    left: 0;
+                    font-family: 'FONT AWESOME 5 FREE';
+                    font-weight: 900;
+                    content: "\f3c5";
+                    color: $dvPinkColor;
+                }
+            }
+        }
+    }
+
+    .usage-terms {
+        h4 {
+            font-family:'Poppins', sans-serif;
+            font-weight: 700 !important;
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+
+        div {
+            background-color: #fafafa;
+            border: 1px solid #f1f1f1;
+            border-radius: 20px;
+            padding: 25px;
+            
+            ul { 
+                padding-inline-start: 20px;
+                margin-bottom: 0;
+
+                li {
+                    padding-left: 10px;
+                    font-family:'EB Garamond', serif !important;
+                    font-weight: 500 !important;
+                    font-size: 20px;
+
+                    &:not( :last-child ) {
+                        margin-bottom: 20px;
+                    }
+
+                    &::marker {
+                        color: #ffb9d1;
+                    }
+                }
+            }
+        }
+    }
+
+    .similar-services {
+        h4 {
+            font-family:'Poppins', sans-serif;
+            font-weight: 700 !important;
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+
+        .load-more-btn {
+            width: 180px;
+            cursor: pointer;
+        }
+
+        .services-list {
+            .card-wrapper {
+                margin-bottom: 30px;
+
+                .card {
+                    border-radius: 0;
+                    border: 0;
+                    padding-left: 0;
+                    padding-right: 0;
+                    box-shadow: 2px 2px 15px #ccc;
+
+                    .imageContainer {
+                        img {
+                            border-radius: calc(.25rem - 1px);
+                        }
+                    }
+
+                    .card-body {
+                        position: unset;
+                        min-height: 230px;
+
+                        .merchant-link {
+                            font-size: 10px;
+                            color: $dvPinkColor;
+                            text-transform: uppercase;
+                            letter-spacing: .1rem;
+                            text-decoration: none;
+                        }
+
+                        .product-name {
+                            font-family: 'EB Garamond', serif;
+                            font-weight: 500;
+                            font-size: 20px;
+                            min-height: 60px;
+                            margin-top: .15rem;
+                        }
+
+                        .priceRow {
+                            .priceWrapper {
+                                .amount {
+                                    position: absolute;
+                                    bottom: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .cat-navbar {
+        h4 {
+            font-family:'Poppins', sans-serif;
+            font-weight: 700 !important;
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+#how-to-redeem {
+    position: relative;
+    background: #FFF;
+    padding: 20px;
+    width: auto;
+    max-width: 500px;
+    margin: 20px auto;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500 !important;
+    font-size: 16px;
+
+    .main-header {
+        font-weight: 700 !important;
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+    .sub-caption {
+        font-size: 16px;
+        color: $dvPinkColor;
+    }
+
+    .sub-header {
+        font-weight: 700 !important;
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-bottom: .3rem;
+    }
+
+    .separator {
+        border-right: 0;
+        height: unset;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    p {
+        img {
+            height: auto;
+            margin: 20px 0;
+        }
+
+        .redeem-img-step-1 {
+            width: 250px;
+        }
+
+        .redeem-img-step-2 {
+            width: 350px;
+        }
+
+        .redeem-img-step-3 {
+            width: 350px;
+        }
+    }
+}
+
+.mfp-bg {
+    z-index: 9999 !important;
+}
+
+.mfp-wrap {
+    z-index: 9999 !important;
+}
+
+.mfp-close-btn-in .mfp-close {
+    color: $dvPinkColor !important;
+}
+.single-product {
+  margin-top: 80px;
+}
+
+@media (max-width: 480px) {
+    .desktop-view {
+        display: none;
+    }
+    
+    .mobile-view {
+        display: block;
+    }
+
+    .single-product {
+        margin-top: 30px;
+    }
+
+    .product-details {
+        width: 100%;
+
+        h2.product-name {
+            font-size: 26px;
+            text-align: center;
+        }
+
+        .product-merchant {
+            text-align: center;
+        }
+
+        .product-pricing {
+            text-align: center;
+        }
+
+        .product-content {
+            .redeemable-outlet-btn {
+                margin-top: 3rem;
+
+                a {
+                    font-family:'Inter', sans-serif;
+                    font-weight: 700 !important;
+                    font-size: 13px;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    color: #22201b;
+                    border: 3px solid #ccc;
+                    border-radius: 30px;
+                    padding: 1rem 1.8rem;
+
+                    &:hover {
+                        text-decoration: none;
+                        color: #22201b;
+                    }
+                }
+            }
+
+            h4 {
+                font-size: 20px;
+            }
+        }
+
+        .usage-terms { 
+            h4 {
+                font-size: 20px;
+            }
+        }
+
+        .similar-services { 
+            h4 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    #how-to-redeem {
+        margin: 0;
+        padding-bottom: 80px;
+    }
+
+    #outlet-locations-clone {
+        position: fixed;
+        top: 0;
+        background: #fafafa;
+        padding: 20px 20px 80px 20px;
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        z-index: 1050;
+        overflow-y: auto;
+
+        h4 {
+            font-family:'Poppins', sans-serif;
+            font-weight: 700 !important;
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+
+        p {
+            font-family:'EB Garamond', serif !important;
+            font-weight: 500 !important;
+            font-size: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+              
+            li {
+                position: relative;
+                padding-left: 30px;
+                line-height: 1.6;
+
+                &:not( :last-child ) {
+                    margin-bottom: 50px;
+                }
+
+                p {
+                    margin-bottom: unset !important;
+                    font-family:'Poppins', sans-serif !important;
+                    font-weight: 500 !important;
+                    font-size: 16px !important;
+                }
+
+                p.outlet-name {
+                    font-family:'Poppins', sans-serif !important;
+                    font-weight: 700 !important;
+                    font-size: 16px !important;
+                    text-transform: uppercase !important;
+                }
+            }
+
+            li:before {
+                position: absolute;
+                top: 0;
+                left: 0;
+                font-family: 'FONT AWESOME 5 FREE';
+                font-weight: 900;
+                content: "\f3c5";
+                color: $dvPinkColor;
+            }
+        }
+
+        .close-outlet-location-btn {
+            text-align: right;
+        }
+    }
+
+    .services-list {
+        .card {
+            padding: 15px !important;
+
+            .imageContainer {
+                img {
+                    width: 140px;
+                    height: auto;
+                }
+            }
+
+            .col-4 {
+                float: left;
+            }
+
+            .col-8 {
+                float: right;
+
+                .card-body {
+                    padding-top: 0;
+                    padding-bottom: 0;
+                    min-height: unset !important;
+
+                    .product-name {
+                        font-size: 16px;
+                        margin-bottom: 5px;
+                    }
+
+                    .merchant-link {
+                        font-size: 8px;
+                        display: block;
+                    }
+
+                    .priceRow {
+                        .priceWrapper {
+                            .amount {
+                                position: relative !important;
+                                bottom: 0px !important;
+
+                                .regular-price {
+                                    margin-right: 10px;
+                                    font-size: 12px;
+                                }
+
+                                .sale-price {
+                                    font-size: 16px;
+                                }
+
+                                .promo-price {
+                                    .normal-price {
+                                        font-size: 16px;
+                                    }
+                                }
+                            }
+
+                            .discount-rate {
+                                left: -115px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #how-to-redeem-clone {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        background: #FFF;
+        padding: 20px;
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500 !important;
+        font-size: 16px;
+        z-index: 9999;
+        overflow-y:scroll;
+        overflow-x:hidden;
+
+        .close-how-to-redeem-btn {
+            text-align: right;
+        }
+    
+        .main-header {
+            font-weight: 700 !important;
+            font-size: 20px;
+            margin-bottom: 0;
+        }
+    
+        .sub-caption {
+            font-size: 16px;
+            color: $dvPinkColor;
+        }
+    
+        .sub-header {
+            font-weight: 700 !important;
+            font-size: 16px;
+            text-transform: uppercase;
+            margin-bottom: .3rem;
+        }
+    
+        .separator {
+            border-right: 0;
+            height: unset;
+            margin-top: 10px;
+            margin-bottom: 30px;
+        }
+    
+        p {
+            img {
+                height: auto;
+                margin: 20px 0;
+            }
+    
+            .redeem-img-step-1 {
+                width: 250px;
+            }
+    
+            .redeem-img-step-2 {
+                width: 350px;
+            }
+    
+            .redeem-img-step-3 {
+                width: 350px;
+            }
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .services-list {
+        .card {
+            .col-8 {
+                .card-body {
+                    .priceRow {
+                        .priceWrapper {
+                            .discount-rate {
+                                left: -100px;
+
+                                div {
+                                    .discounted {
+                                        font-size: 8px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

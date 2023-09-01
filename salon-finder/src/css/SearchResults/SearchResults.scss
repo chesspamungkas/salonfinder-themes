@@ -1,0 +1,77 @@
+#search-result-body .search_title {
+  margin-top: 30px;
+}
+
+.search_title_left {
+  float: left;
+}
+
+.search_title_left h1 {
+  font-size : 24px;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+}
+
+p.search_number {
+  color: #626262;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+}
+
+.hide-categories, .show-categories {
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  color: #EA4A7F;
+  cursor: pointer;
+}
+
+.show-categories {
+  display: none;
+}
+
+p:last-of-type {
+  padding-bottom: 0;
+}
+
+#search-results .imageContainer, .latestPromoContainer .imageContainer {
+  min-height: 165px; 
+}
+
+.service-image {
+  max-width: 100%;
+  height: auto;
+}
+
+#search-result-body {
+  margin-top: 130px;
+  padding-bottom: 10rem !important;
+}
+
+.load-more-div {
+  padding-bottom: 50px;
+  border-bottom: 2px solid #e8d9d9;
+  overflow: hidden;
+}
+
+@include media-breakpoint-down(sm) {
+
+  .search_title_left h1 {
+    font-size : 20px;
+  }
+
+  p.search_number {
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    color: #5D5D4E;
+    text-transform: uppercase;
+    margin-top: 15px;
+  }
+
+  .hide-categories, .show-categories {
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    float: right;
+    margin-top: 15px;
+  }
+}

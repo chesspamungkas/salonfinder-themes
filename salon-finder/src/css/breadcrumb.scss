@@ -1,0 +1,56 @@
+#breadcrumb-container {
+    width: 900px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    .row {
+        .col {
+            padding-top: 40px;
+
+            #breadcrumbs {
+                font-family: 'Poppins', sans-serif;
+                font-weight: 300;
+                font-size: 10px;
+                color: $dvPinkColor;
+                text-transform: uppercase;
+
+                span {
+                    font-weight: 600;
+                    font-size: 10px;
+
+                    .fa-chevron-right {
+                        margin-left: 5px;
+                        margin-right: 5px;
+                    }
+
+                    .breadcrumb_last {
+                        font-weight: 300 !important;
+                        font-size: 10px !important;
+                        color: #626262;
+
+                        a {
+                            font-weight: 600 !important;
+                        }
+                    }
+
+                    a {
+                        font-weight: 300;
+                        font-size: 10px;
+                        color: #626262;
+                        text-decoration: none;
+
+                        &:hover {
+                            color: $dvPinkColor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    #breadcrumb-container {
+        width: 100%;
+    }
+}
